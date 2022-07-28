@@ -1,0 +1,22 @@
+{
+  "name": "vue-2.7-vtu-jsx-vitest",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "test:unit": "vitest --environment jsdom"
+  },
+  "dependencies": {
+    "vue": "^2.7.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "1.1.2",
+    "@vitejs/plugin-vue2-jsx": "1.0.2",
+    "@vue/test-utils": "^1",
+    "jsdom": "^20.0.0",
+    "vite": "^3.0.1",
+    "vitest": "^0.18.1",
+    "vue": "^2.7.0"
+  }
+}
